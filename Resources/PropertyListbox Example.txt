@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyListBox version="1.2">
+<name>PropertyListbox Example</name>
+<button id="0" text="Help"/>
+<contents>
+<header visible="True" expanded="True">
+<name>Cell Types</name>
+<param type="1" visible="True">
+<name>Normal</name>
+<value>Normal Text</value>
+</param>
+<param type="2" visible="True">
+<name>CheckBox</name>
+<value>False</value>
+</param>
+<param type="3" visible="True">
+<name>Editable</name>
+<value>Click to edit</value>
+</param>
+<param type="4" visible="True">
+<name>Multiline Text</name>
+<value>Click to edit
+</value>
+</param>
+<param type="5" visible="True" required="True">
+<name>List</name>
+<valuelist>Red|Green|Blue</valuelist>
+</param>
+<param type="6" visible="True">
+<name>Editable List</name>
+<valuelist>Red|Green|Blue</valuelist>
+</param>
+<param type="6" visible="True" autocomplete="True">
+<name>Autocomplete List</name>
+<valuelist>font_list</valuelist>
+</param>
+<param type="8" visible="True" autocomplete="false">
+<name>Custom Edit</name>
+<valuelist>font_list</valuelist>
+</param>
+<param type="7" visible="True">
+<name>Color</name>
+<value>&amp;cDBDFFF</value>
+</param>
+<param type="8" visible="True">
+<name>FolderItem (File)</name>
+</param>
+
+<param type="8" visible="True" folder="True">
+<name>FolderItem (Folder)</name>
+</param>
+
+<param type="9" visible="True">
+<name>RadioButton 1</name>
+<value>True</value>
+<helptag>Only one RadioButton per header can be checked at at time.
+RadioButton appear as checkboxes.
+However, RadioButtons and Checkboxes are independant</helptag>
+</param>
+<param type="9" visible="True">
+<name>RadioButton 2</name>
+<value>False</value>
+<helptag>Only one RadioButton per header can be checked at at time.
+RadioButton appear as checkboxes.
+However, RadioButtons and Checkboxes are independant</helptag>
+</param>
+<param type="9" visible="True">
+<name>RadioButton 3</name>
+<value>False</value>
+<helptag>Only one RadioButton per header can be checked at at time.
+RadioButton appear as checkboxes.
+However, RadioButtons and Checkboxes are independant</helptag>
+</param>
+<param type="10" visible="True">
+<name>Rating</name>
+<value>3</value>
+</param>
+<param type="11" visible="True">
+<name>Picture</name>
+<value>3</value>
+</param>
+<param type="12" visible="True" numeric="True">
+<name>Numeric Up-Down</name>
+<value>1</value>
+</param>
+</header>
+<header visible="True" expanded="True" button="0">
+<name>Header with Button</name>
+<param type="3" visible="True" numeric="True">
+<name>Enter a math formula</name>
+<value>5+3*2</value>
+</param>
+<param type="2" visible="True">
+<name>Show Invisible Lines</name>
+<value>False</value>
+</param>
+<param type="1" visible="False">
+<name>Invisible Line 1</name>
+</param>
+<param type="1" visible="False">
+<name>Invisible Line 2</name>
+</param>
+<param type="2" visible="False">
+<name>Show Invisible Header</name>
+<value>False</value>
+</param>
+</header>
+<header visible="False" expanded="True">
+<name>Invisible Header</name>
+<param type="1" visible="True">
+<name>No value</name>
+</param>
+</header>
+</contents>
+<style>
+<header UpdateStyle="False">
+<backColor>#DBDFFF</backColor>
+<bold>True</bold>
+<highlightcolor>#3399FF</highlightcolor>
+<italic>False</italic>
+<textalign>0</textalign>
+<textcolor>#000000</textcolor>
+<textfont>System</textfont>
+<texthighlightcolor>#FFFFFF</texthighlightcolor>
+<textsize>0</textsize>
+<underline>False</underline>
+</header>
+<name UpdateStyle="False">
+<backColor>#FFFFFF</backColor>
+<bold>False</bold>
+<highlightcolor>#3399FF</highlightcolor>
+<italic>False</italic>
+<textalign>2</textalign>
+<textcolor>#000000</textcolor>
+<textfont>System</textfont>
+<texthighlightcolor>#FFFFFF</texthighlightcolor>
+<textsize>0</textsize>
+<underline>False</underline>
+</name>
+<value UpdateStyle="False">
+<backColor>#FFFFFF</backColor>
+<bold>False</bold>
+<highlightcolor>#3399FF</highlightcolor>
+<italic>False</italic>
+<textalign>0</textalign>
+<textcolor>#000000</textcolor>
+<textfont>System</textfont>
+<texthighlightcolor>#FFFFFF</texthighlightcolor>
+<textsize>0</textsize>
+<underline>False</underline>
+</value>
+<defaultvalue UpdateStyle="False">
+<backColor>#FFDDAA</backColor>
+<bold>False</bold>
+<highlightcolor>#3399FF</highlightcolor>
+<italic>False</italic>
+<textalign>0</textalign>
+<textcolor>#000000</textcolor>
+<textfont>System</textfont>
+<texthighlightcolor>#FFFFFF</texthighlightcolor>
+<textsize>0</textsize>
+<underline>False</underline>
+</defaultvalue>
+<ColonString>:</ColonString>
+<PropertyString>Property</PropertyString>
+<ValueString>Value</ValueString>
+<TransparentString>transparent</TransparentString>
+<Border>True</Border>
+<ColumnWidths>50% 50%, 1*</ColumnWidths>
+<GridLinesHorizontal>0</GridLinesHorizontal>
+<GridLinesVertical>0</GridLinesVertical>
+<HasHeading>True</HasHeading>
+<ScrollBarHorizontal>False</ScrollBarHorizontal>
+<ScrollBarVertical>True</ScrollBarVertical>
+<DefaultRowHeight>-1</DefaultRowHeight>
+<AutoHideScrollbars>True</AutoHideScrollbars>
+<Hierarchical>True</Hierarchical>
+</style>
+</PropertyListBox>
