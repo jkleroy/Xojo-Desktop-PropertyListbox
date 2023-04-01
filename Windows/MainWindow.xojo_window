@@ -10,7 +10,7 @@ Begin Window MainWindow
    HasBackColor    =   False
    Height          =   679
    ImplicitInstance=   True
-   LiveResize      =   True
+   LiveResize      =   "True"
    MacProcID       =   0
    MaxHeight       =   32000
    MaximizeButton  =   True
@@ -374,7 +374,6 @@ Begin Window MainWindow
       Enabled         =   True
       EnableLineFoldings=   False
       enableLineFoldingSetting=   False
-      EraseBackground =   False
       GutterBackgroundColor=   &cEEEEEE00
       GutterSeparationLineColor=   &c88888800
       GutterWidth     =   0
@@ -408,7 +407,6 @@ Begin Window MainWindow
       selLength       =   0
       selStart        =   0
       SelText         =   ""
-      Stats           =   ""
       TabIndex        =   7
       TabPanelIndex   =   0
       TabStop         =   True
@@ -436,7 +434,6 @@ Begin Window MainWindow
       DoubleBuffer    =   False
       Enabled         =   True
       enableLock      =   False
-      EraseBackground =   True
       Height          =   360
       Index           =   -2147483648
       InitialParent   =   ""
@@ -762,7 +759,6 @@ Begin Window MainWindow
       Backdrop        =   0
       DoubleBuffer    =   False
       Enabled         =   True
-      EraseBackground =   False
       Height          =   20
       Index           =   -2147483648
       InitialParent   =   ""
